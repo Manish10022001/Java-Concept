@@ -12,6 +12,5 @@ public class TwoStringMethods{
         //substring(start,end)
         System.out.println(str.substring(2,4));
         System.out.println(str.substring(3));
-        System.out.println(str.substring(3,0));
     }
 }
