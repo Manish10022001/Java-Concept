@@ -8,5 +8,10 @@ public class TwoStringMethods{
 
         //charAt(index)
         System.out.println(str.charAt(2));
+
+        //substring(start,end)
+        System.out.println(str.substring(2,4));
+        System.out.println(str.substring(3));
+        System.out.println(str.substring(3,0));
     }
 }
