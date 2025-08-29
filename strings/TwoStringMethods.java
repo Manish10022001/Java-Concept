@@ -23,6 +23,8 @@ public class TwoStringMethods{
         System.out.println(str.toUpperCase());
         System.out.println(str.toLowerCase());
 
-        
+        //replace()
+        System.out.println(str.replace("Java","World"));
+
     }
 }
