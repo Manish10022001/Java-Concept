@@ -5,5 +5,8 @@ public class TwoStringMethods{
 
         //length()
         System.out.println(str.length());
+
+        //charAt(index)
+        System.out.println(str.charAt(2));
     }
 }
