@@ -6,7 +6,7 @@ public class OneStringCreation {
         //1. using string literal
         String s1 = "ABC";
         String s2 = "123";
-        // s1 = s1+ "skb";
+
         //2. using new operator
         String s3 = new String("Manish");
         String s4 = new String("Shirsat");
