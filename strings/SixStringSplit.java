@@ -7,5 +7,11 @@ public class SixStringSplit {
         for(String word : words){
             System.out.println(word);
         }
+
+        String str2 = "apple, orange, banana";
+        String[] words2 = str2.split(",");
+        for(String word2 : words2){
+            System.out.println(word2);
+        }
     }
 }
