@@ -12,6 +12,11 @@ public class StringJoinerClass {
         sj.add("Om");
         System.out.println(sj.toString());
 
-        
+        //string joiner with prefix and suffix
+        StringJoiner sj2 = new StringJoiner(",","[","]");
+        sj2.add("Manish");
+        sj2.add("om");
+        sj2.add("Jay");
+        System.out.println(sj2.toString());
     }
 }
