@@ -9,7 +9,7 @@ public class StringAnagramCheck {
         }
 
         // Step 2: Convert strings to character arrays
-        char[] charArray1 = str1.toCharArray();
+        char[] charArray1 = str1.toCharArray(); 
         char[] charArray2 = str2.toCharArray();
 
         // Step 3: Sort both character arrays
