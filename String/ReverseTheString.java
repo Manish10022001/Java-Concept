@@ -13,7 +13,17 @@ public class ReverseTheString {
             System.out.print(strArray[i]);
         }
         System.out.println();
-    }
 
+        //using recursive method
+        System.out.println(recursiveMethod(str));
+    }
+    //using recursive method to reverse a string
+    static String recursiveMethod(String str){
+        //check if str is null or less than or equal to 1, if yes then return string
+        if((null == str) || str.length()<=1){
+            return str;
+        }
+        return recursiveMethod(str.substring(1))+ str.charAt(0);
+    }
     
 }
