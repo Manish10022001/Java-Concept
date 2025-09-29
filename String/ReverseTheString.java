@@ -6,6 +6,13 @@ public class ReverseTheString {
         //using StringBuffer
         StringBuffer sbf = new StringBuffer(str);
         System.out.println(sbf.reverse());
+
+        //Using iterative method: In this method, first we convert given string to char array using charArray() method. And then we iterate that array in the reverse order.
+        char[] strArray = str.toCharArray();
+        for(int i = strArray.length -1; i>=0; i--){
+            System.out.print(strArray[i]);
+        }
+        System.out.println();
     }
 
     
